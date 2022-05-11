@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 987px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
