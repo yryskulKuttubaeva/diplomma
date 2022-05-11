@@ -3,20 +3,20 @@ import Logo from "../ul/Logo/Logo";
 import classes from "./Drawer.module.css";
 
 function Drawer({ open, toggle }) {
-  const classNames = [classes.Drawer];
-  if (open) {
-    classNames.push(classes.open);
-  }
+    const classNames = [classes.Drawer];
+    if (open) {
+        classNames.push(classes.open);
+    }
 
-  return (
-    <div className={classNames.join(" ")}>
-      <div onClick={toggle} className={classes.backdrop}></div>
-      <div className={classes.content}>
-        <Logo />
-        <Nav />
-      </div>
-    </div>
-  );
+    return (
+        <div className={classNames.join(" ")}>
+            <div onClick={toggle} className={classes.backdrop}></div>
+            <div className={classes.content}>
+                <Logo />
+                <Nav />
+            </div>
+        </div>
+    );
 }
 
 export default Drawer;
