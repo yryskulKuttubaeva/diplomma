@@ -59,6 +59,25 @@ const products = [
       rating: 4,
       numReviews: 12,
     },
+    {
+      _id: "6",
+      name: "Apple TV",
+      image: "https://chudo.tech/wp-content/uploads/2017/08/televizor-ot-Apple.jpg",
+  
+      price: 291.99,
+      rating: 5,
+      numReviews: 12,
+    },
+    {
+      _id: "6",
+      name: "Apple Watch",
+      image: "https://root-nation.com/wp-content/uploads/2020/12/ipad-7-1.jpg",
+  
+      price: 129.99,
+      rating: 3,
+      numReviews: 12,
+    },
+
   ];
   
   export default products;

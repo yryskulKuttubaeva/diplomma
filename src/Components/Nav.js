@@ -1,6 +1,7 @@
 import "./Nav.css";
 import { useContext } from "react";
 import CartContext from "../context/cart/CartContext";
+import Home from "../pages/Home";
 
 const Nav = () => {
   const { cartItems, showHideCart } = useContext(CartContext);
@@ -22,12 +23,14 @@ const Nav = () => {
             onClick={showHideCart}
           />
           {cartItems.length > 0 && (
+            
             <div className='item__count'>
               <span>{cartItems.length}</span>
             </div>
           )}
         </div>
       </div>
+      <Home/>
     </nav>
   );
 };
