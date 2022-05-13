@@ -5,7 +5,6 @@ import CartContext from "../context/cart/CartContext";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useContext(CartContext);
-  let opts = { format: "%s%v", symbol: "c" };
   return (
     <div className='productCard__wrapper'>
       <div>
