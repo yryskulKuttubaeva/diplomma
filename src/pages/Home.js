@@ -5,10 +5,9 @@ function Home() {
   return (
     <>
       <Header
-        title="Welcome to our optics shop!"
+        title="Welcome to our technics shop!"
         image={headerImage}>
-        
-Our prescription glasses offer a wide choice of online ladies and mens frames ranging from cheap prescription glasses to top designer styles. If you need spectacles for work, reading or driving, we offer high quality glasses at a great price, along with free prescription lenses in most
+        In fact not everything is so wonderful as it seems at the first sight. Just look at people around — they are obviously addicted to their mobiles like to drugs. Every second you see a person staring at his telephone screen. Children are playing games and applications in their mobiles instead of playing football or walking with friends. People forget what it is like to communicate face to face, they only chat to people online. Moreover using mobile phones very often is dangerous because of radiation we get.
       </Header>
     </>
   );

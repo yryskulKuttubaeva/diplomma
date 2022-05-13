@@ -1,23 +1,15 @@
-import Home from "./pages/Home";
-import Contacts from "./pages/Contacts";
-import Products from "./pages/Products";
-import { Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
-import Product from "./pages/Product";
-import NotFound from "./pages/NotFound";
+import Cart from "./Components/Cart";
+import Nav from "./Components/Nav";
+import HomeScreen from "./screens/HomeScreen";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/products/:productId" element={<Product />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Layout>
+    <div className='App'>
+      <Nav />
+      <Cart />
+      <HomeScreen />
+      <Footer/>
     </div>
   );
 }
