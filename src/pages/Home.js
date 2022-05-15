@@ -1,13 +1,13 @@
-import Nav from "../Components/Nav";
+import Header from "../components/Header/Header";
 
 function Home() {
   return (
     <>
-      <Nav
-        title="Welcome to our technics shop!"
-        image="https://dukon.kg/upload/iblock/823/823a04005dea7a12db990bfc3eac73c1.jpg">
-        In fact not everything is so wonderful as it seems at the first sight. Just look at people around — they are obviously addicted to their mobiles like to drugs. Every second you see a person staring at his telephone screen. Children are playing games and applications in their mobiles instead of playing football or walking with friends. People forget what it is like to communicate face to face, they only chat to people online. Moreover using mobile phones very often is dangerous because of radiation we get.
-      </Nav>
+      <Header
+        title="Welcome to our coffee shop!"
+        image={"https://vyuchit.work/wp-content/uploads/2018/02/53644690.png"}>
+        A coffee bean is a seed of the Coffea plant and the source for coffee. It is the pip inside the red or purple fruit often referred to as a cherry. Just like ordinary cherries, the coffee fruit is also a so-called stone fruit. Even though the coffee beans are not technically beans, they are referred to as such because of their resemblance to true beans.
+      </Header>
     </>
   );
 }

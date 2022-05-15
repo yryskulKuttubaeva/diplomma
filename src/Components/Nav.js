@@ -1,14 +1,15 @@
 import "./Nav.css";
 import { useContext } from "react";
 import CartContext from "../context/cart/CartContext";
-import Home from "../pages/Home";
+
 
 const Nav = () => {
   const { cartItems, showHideCart } = useContext(CartContext);
 
   return (
     <nav>
-      <div className='nav__left'>Technics</div>
+ 
+      <h1 className='nav__left'>Technics</h1>
       <div className='nav__middle'>
         <div className='input__wrapper'>
           <input type='text' />
@@ -23,14 +24,14 @@ const Nav = () => {
             onClick={showHideCart}
           />
           {cartItems.length > 0 && (
-            
+
             <div className='item__count'>
               <span>{cartItems.length}</span>
             </div>
           )}
         </div>
       </div>
-      <Home/>
+      
     </nav>
   );
 };

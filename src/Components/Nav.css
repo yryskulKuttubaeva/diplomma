@@ -5,15 +5,16 @@ nav {
     justify-content: center;
     height: 50px;
     background-color: #1d1f27;
-    padding: 0 20px;
+    padding: 40px 20px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
   }
-  
+ 
   .nav__left {
     flex: 1;
+    font-size: 2rem;
   }
   
   .nav__middle {

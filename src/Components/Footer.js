@@ -3,9 +3,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="Footer">
-      <div>
+      <h1>
         Technics 2022
-      </div>
+      </h1>
     </footer>
   );
 }
