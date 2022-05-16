@@ -2,6 +2,7 @@ import "./Header.css";
 
 function Header() {
   return (
+
     <header className="Header">
       <img src="https://vyuchit.work/wp-content/uploads/2018/02/53644690.png" alt="" />
       <section>

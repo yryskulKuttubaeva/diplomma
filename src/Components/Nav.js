@@ -14,6 +14,9 @@ const Nav = () => {
       <li className="NavItem" url="/">Home</li>
       <li className="NavItem" url="/products">Products</li>
       <li className="NavItem" url="/contacts">Contacts</li>
+      <li className="NavItem" url="/Stock">Stock</li>
+
+
     </ul>
     </div>
  
