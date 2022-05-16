@@ -1,6 +1,7 @@
-import "./Nav.css";
+import "./Nav.module.css";
 import { useContext } from "react";
 import CartContext from "../context/cart/CartContext";
+import NavItem from "./NavItem";
 
 const Nav = () => {
   const { cartItems, showHideCart } = useContext(CartContext);
@@ -10,16 +11,12 @@ const Nav = () => {
       <h1 className="nav__left">Technics</h1>
 
       <div className="Nav__left">
-      <ul className="Nav">
-      <li className="NavItem" url="/">Home</li>
-      <li className="NavItem" url="/products">Products</li>
-      <li className="NavItem" url="/contacts">Contacts</li>
-      <li className="NavItem" url="/Stock">Stock</li>
-
-
-    </ul>
-    </div>
- 
+        <ul className="Nav">
+          <NavItem url="/">Home</NavItem>
+          <NavItem url="/products">Products</NavItem>
+          <NavItem url="/contacts">Contacts</NavItem>
+        </ul>
+      </div>
 
       <div className="nav__middle">
         <div className="input__wrapper">
@@ -28,7 +25,6 @@ const Nav = () => {
         </div>
       </div>
       <div className="nav__right">
-     
         <div className="cart__icon">
           <i
             className="fa fa-shopping-cart"
