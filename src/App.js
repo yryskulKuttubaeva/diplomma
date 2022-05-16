@@ -12,9 +12,6 @@ function App() {
       <Cart />
       <HomeScreen />
       <Footer/>
-      
-  
-      
     </div>
   );
 }
