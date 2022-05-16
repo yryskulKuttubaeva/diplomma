@@ -74,5 +74,51 @@ nav {
     top: -50%;
     right: -50%;
   }
+  .Nav__left {
+    display: block;
+    padding: 2rem 3rem;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+
  
+  }
+  .Nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
   
+  @media (max-width: 620px) {
+    .Nav {
+      flex-direction: column;
+      margin: 1rem 0;
+    }
+  }
+  .NavItem {
+    padding: 2rem 2rem;
+
+  }
+  .NavItem a {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+  .NavItem a.active {
+    border-color: white;
+  }
+  .NavItem a:hover {
+    background-color: rgba(255, 255, 255, .1);
+  }
+  
+  @media (max-width: 620px) {
+    .NavItem a {
+      border-bottom: none;
+      border-right: 5px solid transparent;
+    }
+  }

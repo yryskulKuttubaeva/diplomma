@@ -7,29 +7,38 @@ const Nav = () => {
 
   return (
     <nav>
-      <h1 className='nav__left'>Technics</h1>
-      <div className='nav__middle'>
-        <div className='input__wrapper'>
-          <input type='text' />
-          <i className='fas fa-search' />
+      <h1 className="nav__left">Technics</h1>
+
+      <div className="Nav__left">
+      <ul className="Nav">
+      <li className="NavItem" url="/">Home</li>
+      <li className="NavItem" url="/products">Products</li>
+      <li className="NavItem" url="/contacts">Contacts</li>
+    </ul>
+    </div>
+ 
+
+      <div className="nav__middle">
+        <div className="input__wrapper">
+          <input type="text" />
+          <i className="fas fa-search" />
         </div>
       </div>
-      <div className='nav__right'>
-        <div className='cart__icon'>
+      <div className="nav__right">
+     
+        <div className="cart__icon">
           <i
-            className='fa fa-shopping-cart'
-            aria-hidden='true'
+            className="fa fa-shopping-cart"
+            aria-hidden="true"
             onClick={showHideCart}
           />
           {cartItems.length > 0 && (
-
-            <div className='item__count'>
+            <div className="item__count">
               <span>{cartItems.length}</span>
             </div>
           )}
         </div>
       </div>
-      
     </nav>
   );
 };
