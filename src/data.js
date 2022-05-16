@@ -78,6 +78,16 @@ const products = [
       numReviews: 12,
     },
 
+    {
+      _id: "7",
+      name: "Apple wireless headphones",
+      image: "https://login.kg/image/cache/catalog/new/Aksessuary/Apple/Naushniki/AirPods%20Pro%20with%20Wireless%20Charging%20Case/1-500x500.jpg",
+  
+      price: 399.99,
+      rating: 4,
+      numReviews: 12,
+    },
+ 
   ];
   
   export default products;

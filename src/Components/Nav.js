@@ -2,13 +2,11 @@ import "./Nav.css";
 import { useContext } from "react";
 import CartContext from "../context/cart/CartContext";
 
-
 const Nav = () => {
   const { cartItems, showHideCart } = useContext(CartContext);
 
   return (
     <nav>
- 
       <h1 className='nav__left'>Technics</h1>
       <div className='nav__middle'>
         <div className='input__wrapper'>
