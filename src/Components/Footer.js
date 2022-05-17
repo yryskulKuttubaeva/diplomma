@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <h1>
-        Technics 2022
+        Technology 2022
       </h1>
     </footer>
   );

@@ -2,7 +2,7 @@ nav {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 50px;
     background-color: #1d1f27;
     padding: 40px 20px;
@@ -74,6 +74,8 @@ nav {
     top: -50%;
     right: -50%;
   }
+
+
   .Nav__left {
     display: block;
     padding: 2rem 3rem;
@@ -82,7 +84,6 @@ nav {
     text-decoration: none;
     border-bottom: 3px solid transparent;
 
- 
   }
   .Nav {
     list-style: none;
