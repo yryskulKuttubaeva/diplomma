@@ -9,7 +9,12 @@ const Nav = () => {
     <nav>
       <h1 className="nav__left">Technology</h1>
 
-     
+      <div className="Nav__left">
+        <ul className="Nav">
+          <li url="/">Home</li>
+          <li url="/co">Products</li>
+        </ul>
+      </div>
 
       <div className="nav__middle">
         <div className="input__wrapper">
