@@ -11,8 +11,8 @@ const Nav = () => {
 
       <div className="Nav__left">
         <ul className="Nav">
-          <li url="/">Home</li>
-          <li url="/co">Products</li>
+          <li className="NavItem" url="/"></li>
+          <li className="NavItem" url="/products">Products</li>
         </ul>
       </div>
 
