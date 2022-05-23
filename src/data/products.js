@@ -32,7 +32,7 @@ const products = [
     categoryId: "stand-mixers",
     title: "Earphones",
     description: ``,
-    price: 8999,
+    price: 2999,
   },
   {
     image: phone1Image,

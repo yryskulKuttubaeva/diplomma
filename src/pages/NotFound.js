@@ -5,7 +5,7 @@ function NotFound() {
   return (
     <>
       <Header
-        title="Page not found"
+        title="Phons,Laptops"
         image={headerImage}>
          Lorem ipsum dolor sit amet consectetur adipisicing elit.     </Header>
     </>

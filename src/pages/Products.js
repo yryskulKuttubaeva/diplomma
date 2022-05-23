@@ -8,7 +8,7 @@ function Products() {
   return (
     <>
       <div className="Products">
-      <Header title="KitchenTech: Better Together" image={productImage} >
+      <Header title="lorem insup dolor" image={productImage} >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur obcaecati praesentium officia quia autem, veritatis accusantium veniam ad suscipit vitae amet magni ipsam perferendis sed, unde vel. Magni, incidunt?
 
       </Header>
