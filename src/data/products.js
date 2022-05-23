@@ -11,7 +11,7 @@ import laptopImage from "../assets/laptop.jpeg"
 const products = [
   {
     image: mixer3Image,
-    productId: "prof5",
+    productId: "Airpods",
     categoryId: "stand-mixers",
     title: "Wireless Headphones",
     description: ``,
@@ -19,7 +19,7 @@ const products = [
   },
   {
     image: mixer2Image,
-    productId: "refurbished-artisan",
+    productId: "Earphone",
     categoryId: "stand-mixers",
     title: "Headphones",
     description: ` `,
@@ -28,7 +28,7 @@ const products = [
 
   {
     image: mixerImage,
-    productId: "artisan-5",
+    productId: "Headphones",
     categoryId: "stand-mixers",
     title: "Earphones",
     description: ``,
@@ -36,7 +36,7 @@ const products = [
   },
   {
     image: phone1Image,
-    productId: "farberware",
+    productId: "iPhones 13",
     categoryId: "major-appliances",
     title: "IPhone ",
     description: ` `,
@@ -44,7 +44,7 @@ const products = [
   },
   {
     image: phone2Image,
-    productId: "count-dish",
+    productId: "Samsung",
     categoryId: "major-appliances",
     title: "Samsung ",
     description: ` `,
@@ -52,7 +52,7 @@ const products = [
   },
   {
     image: phone3Image,
-    productId: "danby",
+    productId: "Vivo",
     categoryId: "major-appliances",
     title: "Vivo ",
     description: ` `,
@@ -60,7 +60,7 @@ const products = [
   },
   {
     image: count1Image,
-    productId: "cosori",
+    productId: "TV Samsung",
 
     categoryId: "countertop-appliances",
     title: "TV ",
@@ -69,7 +69,7 @@ const products = [
   },
   {
     image: laptopImage,
-    productId: "elite",
+    productId: "Laptop",
 
     categoryId: "countertop-appliances",
     title: "Laptop ",
@@ -78,7 +78,7 @@ const products = [
   },
   {
     image: cameraImage,
-    productId: "bodum",
+    productId: "Camera",
 
     categoryId: "countertop-appliances",
     title: "Camera ",
