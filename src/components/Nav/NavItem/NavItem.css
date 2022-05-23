@@ -8,10 +8,13 @@
 }
 .NavItem a.active {
   border-color: white;
-  color: wheat;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.603);
 }
 .NavItem a:hover {
   background-color: rgba(49, 99, 156, 0.63);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.178);
 }
 
 @media (max-width: 620px) {
