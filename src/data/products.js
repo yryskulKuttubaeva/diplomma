@@ -4,7 +4,7 @@ import count1Image from "../assets/kettle2.jpg";
 import phone1Image from "../assets/phone.jpeg"
 import phone2Image from "../assets/phone1.jpeg"
 import phone3Image from "../assets/phone2.jpeg"
-import mixerImage from "../assets/majorheader.jpeg"
+import mixerImage from "../assets/nay.jpeg"
 import cameraImage from "../assets/camera.jpeg"
 import laptopImage from "../assets/laptop.jpeg"
 
@@ -94,7 +94,6 @@ export function getProducts(categoryId) {
   return products;
 }
 
-// dark-roast
 export function getProduct(productId) {
   return products[
     products.findIndex((product) => product.productId === productId)

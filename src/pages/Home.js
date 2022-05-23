@@ -9,8 +9,8 @@ import { getCategories } from "../data/categories";
 function Home() {
   return (
     <>
-      <Header  title="Discover new culinary possibilities with new technologies"  image={headerImage} >
-        Lorem, ipsum dolor sitamet consectetur
+      <Header  title="Technology welcome to we shops"  image={headerImage} >
+        Lorem, ipsum dolor sitamet consectetur, dolor sitamet consectetur
         
       </Header>
       <CategoryList categories={getCategories()}/>
