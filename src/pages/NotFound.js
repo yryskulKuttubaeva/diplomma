@@ -7,7 +7,7 @@ function NotFound() {
       <Header
         title="Phons,Laptops"
         image={headerImage}>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.     </Header>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit.</Header>
     </>
   );
 }

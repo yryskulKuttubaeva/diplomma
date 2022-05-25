@@ -1,15 +1,17 @@
 .CategoryItem {
   box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.575);
   margin: 9px;
+  border-radius: 1rem;
+  background-color: rgb(111, 144, 216);
   
 
  }
  .CategoryItem img {
-  /* border-radius: 20px 20px 0 0; */
   max-width: 250px;
   width: 100%;
   height: 250px;
   display: block;
+  border-radius: 5px;
  }
  .container {
   padding: 18px;
