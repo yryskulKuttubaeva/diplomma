@@ -3,7 +3,7 @@
   margin: 9px;
   border-radius: 1rem;
   background-color: rgb(111, 144, 216);
-  
+  transition-duration: 1s;
 
  }
  .CategoryItem img {
@@ -12,9 +12,13 @@
   height: 250px;
   display: block;
   border-radius: 5px;
+  transition-duration: 1s;
+
  }
  .container {
   padding: 18px;
+  transition-duration: 1s;
+
  
 }
 .CategoryItem Link {
@@ -24,6 +28,8 @@
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   padding: 5px;
+  transition-duration: 500ms;
+
 }
 
 
