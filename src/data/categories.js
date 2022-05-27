@@ -7,7 +7,7 @@ import headerImage3 from "../assets/mixerheader.jpeg";
 
 const categories = [
   {
-    categoryId: "countertop-appliances",
+    categoryId: "TV",
     title: "Laptop",
     title2: "lorem ipsum dolar",
     image: laptopImage,
@@ -17,7 +17,7 @@ const categories = [
   },
   {
   
-    categoryId: "major-appliances",
+    categoryId: "Phone",
     title: "Phones",
     image: phoneImage,
     headerImage: headerImage2,
@@ -26,7 +26,7 @@ const categories = [
   },
   {
   
-    categoryId: "stand-mixers",
+    categoryId: "Airopord",
     title: "Tablet",
     image: naysImage,
     headerImage: headerImage3,

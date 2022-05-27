@@ -12,7 +12,7 @@ const products = [
   {
     image: mixer3Image,
     productId: "Airpods",
-    categoryId: "stand-mixers",
+    categoryId: "Airopord",
     title: "Wireless Headphones",
     description: ``,
     price: 6999,
@@ -20,7 +20,7 @@ const products = [
   {
     image: mixer2Image,
     productId: "Earphone",
-    categoryId: "stand-mixers",
+    categoryId: "Airopord",
     title: "Headphones",
     description: ` `,
     price: 7999,
@@ -29,7 +29,7 @@ const products = [
   {
     image: mixerImage,
     productId: "Headphones",
-    categoryId: "stand-mixers",
+    categoryId: "Airopord",
     title: "Earphones",
     description: ``,
     price: 2999,
@@ -37,7 +37,7 @@ const products = [
   {
     image: phone1Image,
     productId: "iPhones 13",
-    categoryId: "major-appliances",
+    categoryId: "Phone",
     title: "IPhone ",
     description: ` `,
     price: 9999,
@@ -45,7 +45,7 @@ const products = [
   {
     image: phone2Image,
     productId: "Samsung",
-    categoryId: "major-appliances",
+    categoryId: "Phone",
     title: "Samsung ",
     description: ` `,
     price: 6699,
@@ -53,7 +53,7 @@ const products = [
   {
     image: phone3Image,
     productId: "Vivo",
-    categoryId: "major-appliances",
+    categoryId: "Phone",
     title: "Vivo ",
     description: ` `,
     price: 2399,
@@ -62,7 +62,7 @@ const products = [
     image: count1Image,
     productId: "TV Samsung",
 
-    categoryId: "countertop-appliances",
+    categoryId: "TV",
     title: "TV ",
     description: ``,
     price: 4999,
@@ -71,7 +71,7 @@ const products = [
     image: laptopImage,
     productId: "Laptop",
 
-    categoryId: "countertop-appliances",
+    categoryId: "TV",
     title: "Laptop ",
     description: ``,
     price: 3299,
@@ -80,7 +80,7 @@ const products = [
     image: cameraImage,
     productId: "Camera",
 
-    categoryId: "countertop-appliances",
+    categoryId: "TV",
     title: "Camera ",
     description: '',
     price: 1299,
