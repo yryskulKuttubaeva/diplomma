@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <Header  title="Technology welcome to we shops"  image={headerImage} >
-        Lorem, ipsum dolor sitamet consectetur, dolor sitamet consectetur
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quasi nulla, harum asperiores excepturi dolor corrupti repellat sed odio consequatur dolorem! Reprehenderit quas mollitia neque quaerat dolorem accusamus vel nobis!</h4>
         
       </Header>
       <CategoryList categories={getCategories()}/>

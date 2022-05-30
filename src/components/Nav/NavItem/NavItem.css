@@ -10,11 +10,18 @@
   border-color: white;
   color: white;
   background-color: rgba(0, 0, 0, 0.603);
+  display: table;
+  clear: both;
+}
+.NavItem a {
+  color: white;
+  text-decoration: none;
 }
 .NavItem a:hover {
   background-color: rgba(49, 99, 156, 0.63);
   color: white;
   background-color: rgba(0, 0, 0, 0.178);
+  box-shadow: 0 0 5px #33ffff;
 }
 
 @media (max-width: 620px) {
