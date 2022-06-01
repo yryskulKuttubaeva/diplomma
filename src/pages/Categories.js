@@ -11,6 +11,7 @@ function Categories() {
     <>
       <div className="Products">
       <Header  image={headerImage} >
+       
       
 
       </Header>
