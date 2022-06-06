@@ -10,7 +10,7 @@ function Categories() {
   return (
     <>
       <div className="Products">
-      <Header  image={headerImage} >
+      <Header  image={headerImage}  >
        
       
 
