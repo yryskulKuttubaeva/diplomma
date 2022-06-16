@@ -1,8 +1,9 @@
 .CategoryItem {
-  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.575);
-  margin: 9px;
+  box-shadow: 5px 4px 4px 2px rgba(0, 0, 0, 0.575);
+  margin: 1px;
   border-radius: 1rem;
   background-color: rgb(111, 144, 216);
+  padding-bottom: 0;
   transition-duration: 1s;
 
  }
@@ -18,7 +19,7 @@
  }
 
  .CategoryItem img:hover{
-   transform: scale(1.2);
+   transform: scale(1.1);
  }
  .container {
   padding: 18px;
@@ -37,7 +38,12 @@
 
 }
 
-
+a {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
 
 
 
