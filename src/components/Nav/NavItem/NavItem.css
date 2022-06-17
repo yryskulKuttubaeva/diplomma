@@ -30,20 +30,22 @@ a:nth-child(3) {
 .NavItem a.active {
   border-color: white;
   color: white;
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(97, 106, 145, 0.418);
   display: table;
   clear: both;
   border-radius: 8px;
+  width: 1rem;
 }
 .NavItem a {
   text-decoration: none;
 }
 .NavItem a:hover {
-  background-color: rgba(49, 99, 156, 0.63);
   color: white;
-  background-color: rgba(0, 0, 0, 0.178);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.603);
+  /* background-color: rgba(216, 209, 209, 0.534);
+  box-shadow: 0 0 5px rgba(94, 92, 92, 0.603); */
   border-radius: 3px;
+  margin: .2rem;
+  font-size: 1rem;
 }
 
 
