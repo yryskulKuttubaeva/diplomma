@@ -1,5 +1,4 @@
 import classes from "./Nav.module.css";
-
 import NavItem from "./NavItem/NavItem";
 
 function Nav() {

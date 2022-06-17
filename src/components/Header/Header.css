@@ -14,12 +14,13 @@
 }
 .Header section {
   position	: absolute;
-	top		: 175px;
+	top		: 200px;
 	left		: 0;
 	width		: 100%;
   color: black;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(255, 255, 255, 0.603);
   
   /* position: absolute;
   bottom: -3rem;
