@@ -4,7 +4,7 @@ function Contacts() {
   return (
     <>
                     
-       <Header title="Technology "  image={headerImage} >
+       <Header title="NIKE "  image={headerImage} >
       <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quasi nulla, harum asperiores excepturi dolor corrupti repellat sed odio consequatur dolorem! Reprehenderit quas mollitia neque quaerat dolorem accusamus vel nobis!</h4>
           
      

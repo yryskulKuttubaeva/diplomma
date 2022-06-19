@@ -1,0 +1,24 @@
+.img1 {
+    
+    width: 100%;
+    justify-content: center;
+    height: 450px;
+   
+  
+ }
+ 
+ 
+   .b {
+       padding-top: 2rem;
+       margin: 1rem;
+   }
+   .s {
+     background-color: rgb(238, 238, 238);
+       font-size: 1.5rem;
+       font-weight: 1rem;
+       flex-wrap: wrap;     
+ 
+   }
+   h3 {
+       padding-top: 2rem;
+   }

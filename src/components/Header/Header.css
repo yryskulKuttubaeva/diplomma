@@ -7,27 +7,27 @@
   position: relative;
   width: 100%;
   height: 75vh;
-  min-height: 380px;
+  min-height: 480px;
   margin: 2rem 0;
-  border-radius: 2rem;
+  border-radius: 0rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header section {
   position	: absolute;
-	top		: 200px;
-	left		: 0;
-	width		: 100%;
+    top		: 360px;
+    left		: 0;
+    width		: 100%;
   color: black;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgba(255, 255, 255, 0.603);
+  background-color: rgba(56, 54, 54, 0.603);
+  color: white;
   
   /* position: absolute;
   bottom: -3rem;
   right: 2rem;
   max-width: 500px;
   margin-left: 2rem;
-
   background-color: rgb(127, 197, 238);
   padding: 0 2rem 0;
   border-radius: 2rem;

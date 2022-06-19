@@ -28,19 +28,13 @@ a:nth-child(3) {
 
 
 .NavItem a.active {
-  border-color: white;
-  color: white;
-  background-color: rgba(97, 106, 145, 0.418);
-  display: table;
-  clear: both;
-  border-radius: 8px;
-  width: 1rem;
+   color: red;
 }
 .NavItem a {
   text-decoration: none;
 }
 .NavItem a:hover {
-  color: white;
+  color: rgb(68, 92, 112);
   /* background-color: rgba(216, 209, 209, 0.534);
   box-shadow: 0 0 5px rgba(94, 92, 92, 0.603); */
   border-radius: 3px;
@@ -55,13 +49,3 @@ a:nth-child(3) {
     border-right: 5px solid black;
   }
 }
-
-
-
-/* .NavItem a {
-  display: block;
-  color: black;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-bottom: 3px solid transparent;
-} */

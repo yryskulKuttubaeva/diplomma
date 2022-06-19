@@ -4,12 +4,11 @@ import naysImage from "../assets/mixer.jpg";
 import headerImage from "../assets/countertop1.webp";
 import headerImage2 from "../assets/majorheader.jpeg";
 import headerImage3 from "../assets/mixerheader.jpeg";
-import  "./categories.css";
 
 const categories = [
   {
-    categoryId: "TV",
-    title: "Laptop",
+    categoryId: "Max",
+    title: "Air max",
     title2: "lorem ipsum dolar",
     image: laptopImage,
     headerImage: headerImage,
@@ -18,8 +17,8 @@ const categories = [
   },
   {
   
-    categoryId: "Phone",
-    title: "Phones",
+    categoryId: "Men",
+    title: "Men",
     image: phoneImage,
     headerImage: headerImage2,
     description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur obcaecati praesentium officia quia autem, veritatis accusantium veniam ad suscipit vitae amet magni ipsam perferendis sed, unde vel. Magni, incidunt?",
@@ -27,8 +26,8 @@ const categories = [
   },
   {
   
-    categoryId: "Airopord",
-    title: "Tablet",
+    categoryId: "Women",
+    title: "Women",
     image: naysImage,
     headerImage: headerImage3,
     description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur obcaecati praesentium officia quia autem, veritatis accusantium veniam ad suscipit vitae amet magni ipsam perferendis sed, unde vel. Magni, incidunt?",
