@@ -6,3 +6,13 @@
   font-family: 'Times New Roman', Times, serif;
   margin-top: 4rem;
   box-shadow: 0 0 10px rgb(0 0 0 / 30%)  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 2rem;
+  }

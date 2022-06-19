@@ -10,12 +10,9 @@ function Nike() {
         <div ><h3>Nike delivers innovative products, experiences and services to inspire athletes Nike air. 60% Off On All Products Of Week Special Offer. best product everyday. Nikesdelivers. Payment Options Available. Check Order Status. Find A Store. Nike Inc. is a Russian multinational company specializing in sports activities and footwear. The headquarters is in Beaverton.</h3></div>
 
         <div className="s"> 
-    <ul >
+    <ul className="s" >
        <li>Сomfortable</li>
        <li>For any size</li>
-     
-   </ul>
-   <ul > 
         <li>Excellent material</li>
        <li>Any sport</li>
        </ul>
