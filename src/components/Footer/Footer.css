@@ -11,7 +11,7 @@
     width: 40px;
     height: 40px;
   }
-  ul li {
+  .ul li {
     list-style-type: none;
     display: inline;
     margin: 2rem;

@@ -18,8 +18,19 @@
        font-weight: 1rem;
        flex-wrap: wrap;     
        padding: 1rem;
+       margin: 2rem;
+      text-align: center;
+       align-items: center;
+       word-spacing: 3px;
+       line-height: 2rem;
+
+      
  
+   }
+   ul li {
+     list-style-type: none ;
    }
    h3 {
        padding-top: 2rem;
    }
+ 

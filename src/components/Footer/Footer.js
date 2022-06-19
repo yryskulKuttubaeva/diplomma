@@ -14,7 +14,7 @@ function Footer() {
 
     <h1> NIKE STORE 2022</h1>
 
-    <ul>
+    <ul className="ul">
       <li><img  className="icon" src={teleImage} alt="tele"/></li>
       <li><img  className="icon" src={youImage} alt="tele"/></li>
       <li><img  className="icon" src={twitterImage} alt="tele"/></li>
