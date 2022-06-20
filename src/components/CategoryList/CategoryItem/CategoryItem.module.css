@@ -15,10 +15,10 @@
 
  }
 
-  .CategoryItem:hover{
+  /* .CategoryItem:hover{
    transform: scale(0.9);
    box-shadow: black;
- }
+ } */
  .CategoryItem img {
   max-width: 350px;
   width: 100%;
