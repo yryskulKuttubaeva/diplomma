@@ -7,3 +7,13 @@
 .Products {
     text-align: end;
 }
+
+/* @media (min-width: 620px) {
+    .Products .backdrop {
+      display: none;
+    }
+    .Products .content {
+      
+       text-align: center;
+    }
+  } */
