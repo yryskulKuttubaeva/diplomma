@@ -3,7 +3,7 @@
   margin: 20px;
   /* border-radius: 2rem; */
   background-color: rgb(226, 225, 225);
-  transition-duration: 1ms;
+  /* transition-duration: 1ms; */
   margin: 1rem;
 
  }
@@ -14,13 +14,13 @@
     height: 360px;
     display: block;
     /* border-radius: 2rem; */
-    transition: transfrom 1s;
+    /* transition: transfrom 1s; */
 
 
  }
- .ProductItem img:hover{
+ /* .ProductItem img:hover{
    transform: scale(1.01);
- }
+ } */
  .container {
   padding: 1.3rem;
 
