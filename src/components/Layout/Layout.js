@@ -13,15 +13,11 @@ function Layout({ children }) {
 
   return (
     <main className="Layout">
-    
       <Toolbar toggleDrawer={toggleDrawer} />
       <Drawer open={drawerOpen} toggle={toggleDrawer} />
-      <div className="container">
-        {children}
-      </div>
+      <div className="container">{children}</div>
       <Footer />
     </main>
-    
   );
 }
 export default Layout;

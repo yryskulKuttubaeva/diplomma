@@ -4,28 +4,28 @@ import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
 import Nike from "../components/Nike";
 
-import "./Home.css"
-
-
-
+import "./Home.css";
 
 function Home() {
   return (
     <>
-      <Header className="Headerhome" title="NIKE welcome to we stores"  image={headerImage} >
-      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quasi nulla, harum asperiores excepturi dolor corrupti!</h4>
-        
+      <Header
+        className="Headerhome"
+        title="NIKE welcome to we stores"
+        image={headerImage}
+      >
+        <h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          quasi nulla, harum asperiores excepturi dolor corrupti!
+        </h4>
       </Header>
 
       <div className="n">
         <h1>Categories</h1>
       </div>
-      <CategoryList categories={getCategories()}/>
-       
+      <CategoryList categories={getCategories()} />
 
-       <Nike/>
- 
-        
+      <Nike />
     </>
   );
 }

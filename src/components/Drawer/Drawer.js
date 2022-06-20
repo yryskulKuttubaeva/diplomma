@@ -19,4 +19,4 @@ function Drawer({ open, toggle }) {
   );
 }
 
-export default Drawer; 
+export default Drawer;

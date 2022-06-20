@@ -3,7 +3,6 @@ import NavItem from "./NavItem/NavItem";
 
 function Nav() {
   return (
-    
     <ul className={classes.Nav}>
       <NavItem url="/">Home</NavItem>
       <NavItem url="/products">Products</NavItem>

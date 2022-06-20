@@ -9,7 +9,6 @@ import Contacts from "./pages/Contacts";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 
-
 function App() {
   return (
     <div className="App">

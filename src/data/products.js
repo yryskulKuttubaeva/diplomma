@@ -1,12 +1,12 @@
 import mixer2Image from "../assets/mixer2.jpeg";
 import mixer3Image from "../assets/mixer3.jpeg";
 import count1Image from "../assets/kettle2.jpg";
-import phone1Image from "../assets/phone.jpeg"
-import phone2Image from "../assets/phone1.jpeg"
-import phone3Image from "../assets/phone2.jpeg"
-import mixerImage from "../assets/nay.jpeg"
-import cameraImage from "../assets/camera.jpeg"
-import laptopImage from "../assets/laptop.jpeg"
+import phone1Image from "../assets/phone.jpeg";
+import phone2Image from "../assets/phone1.jpeg";
+import phone3Image from "../assets/phone2.jpeg";
+import mixerImage from "../assets/nay.jpeg";
+import cameraImage from "../assets/camera.jpeg";
+import laptopImage from "../assets/laptop.jpeg";
 
 const products = [
   {
@@ -82,7 +82,7 @@ const products = [
 
     categoryId: "Max",
     title: "Nike black-white air max",
-    description: '',
+    description: "",
     price: 1299,
   },
 ];

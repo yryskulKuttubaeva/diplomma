@@ -15,4 +15,4 @@ function Toolbar({ toggleDrawer }) {
   );
 }
 
-export default Toolbar; 
+export default Toolbar;

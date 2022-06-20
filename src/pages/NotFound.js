@@ -4,10 +4,9 @@ import Header from "../components/Header/Header";
 function NotFound() {
   return (
     <>
-      <Header
-        title="Phons,Laptops"
-        image={headerImage}>
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.</Header>
+      <Header title="Phons,Laptops" image={headerImage}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </Header>
     </>
   );
 }

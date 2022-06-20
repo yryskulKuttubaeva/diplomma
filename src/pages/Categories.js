@@ -1,4 +1,3 @@
-
 import headerImage from "../assets/wallovens2.webp";
 import CategoryList from "../components/CategoryList/CategoryList";
 import Header from "../components/Header/Header";
@@ -8,16 +7,11 @@ function Categories() {
   return (
     <>
       <div className="Products">
-      <Header  image={headerImage}  >
-       
-      
-
-      </Header>
+        <Header image={headerImage}></Header>
       </div>
       <CategoryList categories={getCategories()} />
-
     </>
   );
 }
 
-export default Categories;  
+export default Categories;
