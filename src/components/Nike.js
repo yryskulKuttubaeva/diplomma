@@ -3,10 +3,10 @@ import "./Nike.css";
 
 function Nike() {
   return (
-    <div className="b">
-      <h1 className="w">NIKE</h1>
+    <div className="nike">
+      <h1 className="title">NIKE</h1>
 
-      <img className="img1" src={nikeImage} alt="nike" />
+      <img className="imageNike" src={nikeImage} alt="nike" />
       <div>
         <h3>
           Nike delivers innovative products, experiences and services to inspire
@@ -18,7 +18,7 @@ function Nike() {
         </h3>
       </div>
 
-      <div className="s">
+      <div className="example">
         <ul>
           <li>Сomfortable</li>
           <li>For any size</li>
