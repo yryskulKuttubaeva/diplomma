@@ -1,4 +1,4 @@
-.img1 {
+.imageNike {
     
     width: 100%;
     justify-content: center;
@@ -7,11 +7,11 @@
   
  }
  
-   .b {
+   .nike {
        padding-top: 2rem;
        margin: 1rem;
    }
-   .s {
+   .example {
      background-color: rgb(238, 238, 238);
        font-size: 1.5rem;
        font-weight: 1rem;
