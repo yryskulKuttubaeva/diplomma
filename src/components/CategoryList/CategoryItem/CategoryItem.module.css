@@ -1,6 +1,11 @@
+
+
+
+
+
 .CategoryItem {
   box-shadow: 5px 4px 4px 2px rgba(0, 0, 0, 0.575);
-  margin: 1px;
+  margin: 3rem 1rem;
   /* border-radius: 1rem; */
   /* background-color: rgb(111, 144, 216); */
   padding-bottom: 0;
@@ -9,6 +14,7 @@
   text-align: center;
   color: black;
   background-color: rgb(224, 223, 223) ;
+
 
   /* border-radius: 2rem; */
   
@@ -26,6 +32,7 @@
   display: block;
   border-radius: 1rem;
   background-color: rgb(218, 200, 200) ;
+  text-align: center;
   /* transition-duration: 1s;
   transition: transfrom 1s; */
 
@@ -47,6 +54,7 @@
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   padding: 5px;
+  margin: 3rem;
   /* transition-duration: 500ms; */
 
 }
