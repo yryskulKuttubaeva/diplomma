@@ -39,13 +39,12 @@
   
   color: white;
   font-weight: bold;
-  font-size: 1.3rem;
-  padding: .5rem;
+  /* font-size: 1rem;
+  padding: .3rem; */
   text-align: center;
   /* border-top-right-radius: 80%; */
-  margin-top:1rem ;
+  margin-top:.5rem ;
   box-shadow: 0 0 10px rgba(231, 10, 10, 0.144);
-  transition: transfrom 1s;
   background-color: black;
   
 }
