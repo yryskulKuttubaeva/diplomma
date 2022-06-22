@@ -1,8 +1,11 @@
 .imageNike {
     
-    width: 100%;
+    width: 90%;
     justify-content: center;
-    height: 500px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    
   
  }
