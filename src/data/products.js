@@ -14,16 +14,18 @@ const products = [
     productId: "logo",
     categoryId: "Women",
     title: "Nike logo ",
-    description: ``,
-    price: 6999,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>3999</h2>,
   },
   {
     image: mixer2Image,
     productId: "Jordan",
     categoryId: "Women",
     title: "Jordan Nike",
-    description: ` `,
-    price: 7999,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>4999</h2>,
   },
 
   {
@@ -31,32 +33,36 @@ const products = [
     productId: "RU",
     categoryId: "Women",
     title: "Nike RU",
-    description: ``,
-    price: 2999,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price:<h2> 2999</h2>,
   },
   {
     image: phone1Image,
     productId: "Male",
     categoryId: "Men",
     title: "Nike Male",
-    description: ` `,
-    price: 9999,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>5999</h2>,
   },
   {
     image: phone2Image,
     productId: "Blazer Mix",
     categoryId: "Men",
     title: "Nike Blazer Mix",
-    description: ` `,
-    price: 6699,
+    description: `    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>6699</h2>,
   },
   {
     image: phone3Image,
     productId: "SA",
     categoryId: "Men",
     title: "Nike ",
-    description: ` `,
-    price: 2399,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>2399</h2>,
   },
   {
     image: count1Image,
@@ -64,8 +70,9 @@ const products = [
 
     categoryId: "Max",
     title: "Nike white air max",
-    description: ``,
-    price: 4999,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>4999</h2>,
   },
   {
     image: laptopImage,
@@ -73,8 +80,9 @@ const products = [
 
     categoryId: "Max",
     title: "Nike black air max",
-    description: ``,
-    price: 3299,
+    description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>3299</h2>,
   },
   {
     image: cameraImage,
@@ -82,8 +90,9 @@ const products = [
 
     categoryId: "Max",
     title: "Nike black-white air max",
-    description: "",
-    price: 1299,
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: <h2>1299</h2>,
   },
 ];
 
