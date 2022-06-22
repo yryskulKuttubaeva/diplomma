@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
+import CartButton from "../components/CartButton/CartButton";
 import { getProduct } from "../data/products";
 import "./Product.css";
 
@@ -18,6 +19,7 @@ function Product() {
 
         {product.description}
       </Header>
+      <CartButton productId={product.id} />
     </div>
   );
 }
