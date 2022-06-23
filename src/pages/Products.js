@@ -3,6 +3,7 @@ import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 
 import Header from "../components/Header/Header";
+import "./Product.css"
 
 function Products() {
   return (

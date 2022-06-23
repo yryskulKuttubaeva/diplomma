@@ -13,14 +13,15 @@ function Product() {
   }
 
   return (
-    <>
-      <Header 
-        title={product.title}
-        image={product.image}>
-        {product.description}
-      </Header>
-      <CartButton productId={params.productId} />
-    </>
+    <div className="Product">
+    <Header image={product.image} title={product.title}>
+      <div className="price">{product.price} Som</div>
+
+      {product.description}
+      <div className="cartButton"><CartButton productId={params.productId} />
+</div>
+    </Header>
+  </div>
   );
 }
 

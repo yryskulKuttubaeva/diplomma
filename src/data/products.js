@@ -7,7 +7,9 @@ import phone3Image from "../assets/phone2.jpeg";
 import minImage from "../assets/nay.jpeg";
 import cameraImage from "../assets/camera.jpeg";
 import laptopImage from "../assets/laptop.jpeg";
-
+import menImage from "../assets/men.jpeg";
+import maxImage from "../assets/max.jpeg";
+import womenImage from "../assets/women.jpeg";
 
 const products = [
   {
@@ -17,7 +19,7 @@ const products = [
     title: "Nike logo ",
     description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price:3999,
+    price: 3999,
   },
   {
     image: min2Image,
@@ -26,7 +28,7 @@ const products = [
     title: "Jordan Nike",
     description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price:4999,
+    price: 4999,
   },
 
   {
@@ -95,11 +97,41 @@ const products = [
     `,
     price: 1299,
   },
+  {
+    image: womenImage,
+    productId: "Black-white air max",
+
+    categoryId: "Women",
+    title: "Nike black-white air max",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 1299,
+  },
+  {
+    image: menImage,
+    productId: "Black-white air max",
+
+    categoryId: "Men",
+    title: "Nike black-white air max",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 1299,
+  },
+  {
+    image: maxImage,
+    productId: "Black-white air max",
+
+    categoryId: "Max",
+    title: "Nike black-white air max",
+    description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
+    `,
+    price: 1299,
+  },
 ];
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);    
+    return products.filter((product) => product.categoryId === categoryId);
   }
 
   return products;
@@ -108,8 +140,6 @@ export function getProducts(categoryId) {
 // dark-roast
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

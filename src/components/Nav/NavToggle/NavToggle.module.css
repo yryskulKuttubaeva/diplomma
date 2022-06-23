@@ -13,6 +13,7 @@
 
   background-color: black;
   border: none;
+  margin-left: 10rem;
 }
 
 @media (max-width: 620px) {

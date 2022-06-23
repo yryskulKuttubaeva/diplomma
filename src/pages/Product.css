@@ -10,7 +10,9 @@
   float: left;
 }
 
-.Product section {
+
+
+/* .Products section {
   width: 100%;
   left: 500px;
   top: 130px;
@@ -25,14 +27,14 @@
 }
 
 @media (min-width: 620px) {
-  .Product section {
+  .Products section {
     flex-wrap: wrap;
   }
 }
-.Product section h2 {
+.Products section h2 {
   color: red;
 }
-
+ */
 
 
 
