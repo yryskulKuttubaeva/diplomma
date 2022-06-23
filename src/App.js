@@ -16,7 +16,7 @@ function App() {
   
   useEffect(() => {
     dispatch({ type: 'cart/restore' });
-  }, []);
+  });
 
   return (
     <div className="App">
@@ -24,11 +24,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
+
           <Route path="/products/:productId" element={<Product />} />
           <Route path="/categories" element={<Categories />} />
+
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/cart" element={<Cart />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
