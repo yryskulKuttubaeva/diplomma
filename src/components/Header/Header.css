@@ -74,3 +74,31 @@
 .Product section h2 {
   color: red;
 }
+
+.Total {
+  font-size: 2rem;
+  color: red;
+}
+.item {
+  font-size: 2rem;
+  color: rgb(192, 83, 83);
+}
+
+ .btn1 {
+   color: white;
+   margin-right: 5px ;
+   background-color: #000;
+
+}
+.btn2 {
+  color: white;
+  margin-right: 5px ;
+  background-color: #000;
+
+}
+.btn3 {
+  color: white;
+  margin-right: 5px ;
+  background-color: rgb(245, 30, 30);
+
+}
