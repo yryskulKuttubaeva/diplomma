@@ -1,0 +1,21 @@
+.cart-icons {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    justify-content: center;
+   }
+.number {
+    position: absolute;
+    font-size: 1rem;
+    text-align: center;
+   
+}
+
+.CartButton {
+    background-color: red;
+    height: 40px;
+    width: 80px;
+    color: white;
+    top: 3rem;
+    right: 500px;
+}
