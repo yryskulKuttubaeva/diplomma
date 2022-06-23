@@ -1,14 +1,36 @@
  .Product {
-   
     max-width: 500px;
 
 }
-.Products {
+.Product {
     text-align: end;
 }
 
 .Product title {
   float: left;
+}
+
+.Product section {
+  width: 100%;
+  left: 500px;
+  top: 130px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.432); 
+  background-color: rgb(228, 227, 227);
+  color: black;
+  position: absolute;
+
+
+  
+}
+
+@media (min-width: 620px) {
+  .Product section {
+    flex-wrap: wrap;
+  }
+}
+.Product section h2 {
+  color: red;
 }
 
 

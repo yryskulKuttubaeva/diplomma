@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import Header from "../components/Header/Header";
 import CartButton from "../components/CartButton/CartButton";
+import Header from "../components/Header/Header";
 import { getProduct } from "../data/products";
 import "./Product.css";
 
@@ -13,14 +13,14 @@ function Product() {
   }
 
   return (
-    <div className="Product">
-      <Header image={product.image} title={product.title}>
-        <div className="price">{product.price}</div>
-
+    <>
+      <Header 
+        title={product.title}
+        image={product.image}>
         {product.description}
       </Header>
-      <CartButton productId={product.id} />
-    </div>
+      <CartButton productId={params.productId} />
+    </>
   );
 }
 

@@ -20,7 +20,7 @@ function Home() {
         </h4>
       </Header>
 
-      <div className="n">
+      <div className="Category">
         <h1>Categories</h1>
       </div>
       <CategoryList categories={getCategories()} />
