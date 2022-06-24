@@ -3,7 +3,7 @@ body {
   font-family: 'Bree Serif', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(251, 252, 253);
+  background-color: rgba(207, 201, 201, 0.192);
 }
 /* rgb(239, 234, 234); */
 
@@ -17,4 +17,5 @@ code {
   margin: 0 auto;
   padding: 0 1rem;
   box-shadow: none;
+ 
 }
