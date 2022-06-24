@@ -46,7 +46,7 @@ function Checkout() {
         Please enter your information.
       </Header>
       <div>
-        {output}
+        {output} 
         <hr />
         <div className="Total">Total: {total} Som</div>
 

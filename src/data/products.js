@@ -28,7 +28,7 @@ const products = [
     title: "Jordan Nike",
     description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 4999,
+    price: 4399,
   },
 
   {
@@ -47,7 +47,7 @@ const products = [
     title: "Nike Male",
     description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 5999,
+    price: 5099,
   },
   {
     image: phone2Image,
@@ -56,7 +56,7 @@ const products = [
     title: "Nike Blazer Mix",
     description: `    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 6699,
+    price: 6099,
   },
   {
     image: phone3Image,
@@ -75,7 +75,7 @@ const products = [
     title: "Nike white air max",
     description: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 4999,
+    price: 2999,
   },
   {
     image: laptopImage,
@@ -95,37 +95,37 @@ const products = [
     title: "Nike black-white air max",
     description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 1299,
+    price: 2560,
   },
   {
     image: womenImage,
-    productId: "Black-white air max",
+    productId: "Max",
 
     categoryId: "Women",
-    title: "Nike black-white air max",
+    title: "Nike Women",
     description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
     price: 1299,
   },
   {
     image: menImage,
-    productId: "Black-white air max",
+    productId: "Men",
 
     categoryId: "Men",
-    title: "Nike black-white air max",
+    title: "Nike Men",
     description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 1299,
+    price: 1399,
   },
   {
     image: maxImage,
-    productId: "Black-white air max",
+    productId: "Tr23",
 
     categoryId: "Max",
-    title: "Nike black-white air max",
+    title: "Nike max",
     description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
-    price: 1299,
+    price: 1500,
   },
 ];
 

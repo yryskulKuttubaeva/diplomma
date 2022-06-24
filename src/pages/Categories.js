@@ -6,10 +6,14 @@ import { getCategories } from "../data/categories";
 function Categories() {
   return (
     <>
+     <Header image={headerImage}>
       <div className="Products">
-        <Header image={headerImage}></Header>
-      </div>
+       
+      
       <CategoryList categories={getCategories()} />
+      </div>
+      </Header>
+     
     </>
   );
 }

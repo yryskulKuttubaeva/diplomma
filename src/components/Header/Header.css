@@ -27,7 +27,9 @@
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgba(56, 54, 54, 0.603);
-  color: white;}
+  color: white;
+  flex-wrap: wrap;
+}
 
 
   
@@ -48,43 +50,55 @@
   font-size: 2rem;
 }
 
-.Product img {
+.Img {
     width: 70%;
-    height: 10%;
+    
 
 }
+
+
 .Product section {
   width: 80%;
   left: 600px;
-  top: 130px;
+  top: 110px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.432); 
   background-color: rgb(228, 227, 227);
   color: black;
   position: absolute;
+  flex-wrap: wrap;
+  text-align: center;
+}
 
+.Product section h1 {
+  text-align: center;
+}
 
-  
+@media (min-width: 620px) {
+  .Product section {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .price {
   color: red;
   font-size: 1.3rem;
 }
 
-@media (min-width: 620px) {
-  .Product section {
+
+  .Products section {
     flex-wrap: wrap;
   }
-}
+
 .Product section h2 {
   color: red;
 }
 
-@media (min-width: 620px) {
-  .Products {
+
+  .Product section {
     flex-wrap: wrap;
   }
- }
+
 
 .Total {
   font-size: 1.4rem;
@@ -168,3 +182,8 @@
   color: red;
   background-color: #000;
 }
+.items {
+  padding: 2px;
+  margin: 2px;
+  font-size: 1.3rem;
+  letter-spacing:0.2ex;}

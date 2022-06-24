@@ -17,8 +17,12 @@ function Cart() {
 
       return (
         <div>
-          <Link to="">{product.title}</Link> {items[product.productId]}
-          {product.price * items[product.productId]} Som
+          <Link to="">{product.title}</Link> 
+          <hr/>
+           <div className="items"> {items[product.productId]} doings -
+          
+         
+         {product.price * items[product.productId]} Som</div>
           <hr />
           <button
             className="btn1"
