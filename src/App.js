@@ -8,17 +8,10 @@ import NotFound from "./pages/NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Cart from "./pages/Cart";
-import { useDispatch } from "react-redux";
-import { useEffect } from "react";
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 
 function App() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch({ type: "cart/restore" });
-  });
 
   return (
     <div className="App">
