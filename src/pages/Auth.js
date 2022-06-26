@@ -3,12 +3,12 @@ export default function Auth() {
     <form className="Auth">
       <label className="label">
         Email:
-        <input type="email" name="email" />
+        <input className="label1"  type="email" name="email" />
       </label>
       <hr />
       <label>
         Password:
-        <input type="password" name="password" />
+        <input className="label1"type="password" name="password" />
       </label>
       <hr />
       <button className="sign-btn-in">Sign in</button>

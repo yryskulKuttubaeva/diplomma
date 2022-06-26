@@ -1,0 +1,40 @@
+.CartItem {
+    display: flex;
+    width: 60%;
+    font-size: 1.5rem;
+
+  }
+
+  .CartItem img {
+      width: 80%;
+  }
+  .CartItem title a {
+      width: 20%;
+      font-size: 1rem;
+  }
+  .quantity {
+display: inline-block;
+ width: 20%;  
+line-height: 1.7cm;
+margin-top: 1rem;
+padding-right: 20px;
+margin-left: 2rem;
+padding-top: 0;
+padding-left: 27px;
+text-align: center;
+font-size: 1.5rem;
+color: #000;
+
+}
+.title a {
+    display: inline-block;
+   color: red;
+   text-align: justify;
+   margin-top: 5rem;
+   padding-top: 2px;
+ }
+ .subtotal {
+     margin-top: 5rem;
+     padding: 2px ;
+     margin-left: 2rem;
+ }

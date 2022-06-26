@@ -44,10 +44,12 @@
   top: 1rem;
   color: red;
   vertical-align: 3px;  
+  margin-bottom: 8px;
 }
 .ProductItem .price {
   
-  
+  margin-top: 2px;
+  justify-content: center;
   color: white;
   font-weight: bold;
   /* font-size: 1rem;
@@ -61,8 +63,8 @@
   
 }
 
-.ProductItem .price:hover{
+/* .ProductItem .price:hover{
   transform: scale(1.1);
   color: red;
   background-color: #fff;
-}
+} */
