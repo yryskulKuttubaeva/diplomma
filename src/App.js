@@ -9,6 +9,7 @@ import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import SignOut from "./pages/SignOut";
 import Auth from "./pages/Auth";
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
 
           <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
