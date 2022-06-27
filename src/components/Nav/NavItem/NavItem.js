@@ -8,6 +8,7 @@ function NavItem(props) {
         to={props.url}
         className={useMatch(props.url) ? classes.active : null}>
         {props.children}
+     
       </NavLink>
     </li>
   );

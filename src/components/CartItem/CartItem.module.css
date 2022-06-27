@@ -6,11 +6,13 @@
   }
 
   .CartItem img {
-      width: 80%;
+      width: 90%;
+      background-color: rgb(15, 14, 14);
   }
   .CartItem title a {
       width: 20%;
-      font-size: 1rem;
+     
+     
   }
   .quantity {
 display: inline-block;

@@ -28,10 +28,11 @@ export default function CartItem({ product, actions, quantity }) {
       {product.price * quantity}Som
       <hr/>
         {actions ? <button className="btn3" onClick={() => dispatch(remove(product.productId))}>Delete</button> : null}
-
+       
       </div>
-      
+  
     </div>
     
   )
+ 
 }
