@@ -6,8 +6,7 @@ import Header from "../components/Header/Header";
 
 function Products() {
   return (
-    <>
-      <div className="Products">
+    <div className="Products">
         <Header title="lorem insup dolor" image={productImage}>
           <h4>
             {" "}
@@ -16,9 +15,8 @@ function Products() {
             accusantium veniam ad suscipit.
           </h4>
         </Header>
-      </div>
       <ProductList products={getProducts()} />
-    </>
+    </div>
   );
 }
 
