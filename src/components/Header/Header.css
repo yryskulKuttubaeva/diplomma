@@ -1,6 +1,7 @@
 .Header {
   position: relative;
   margin-bottom: 5rem;
+  box-shadow: none;
 }
 
 
@@ -16,7 +17,7 @@
   min-height: 380px;
   margin: 2rem 0;
   border-radius: 0rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
 }
 .Header section {
   position	: absolute;
@@ -55,49 +56,6 @@
     
 
 }
-
-
-.Product section {
-  width: 80%;
-  left: 600px;
-  top: 110px;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.432); 
-  background-color: rgb(228, 227, 227);
-  color: black;
-  position: absolute;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.Product section h1 {
-  text-align: center;
-}
-
-@media (min-width: 620px) {
-  .Product section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-.price {
-  color: red;
-  font-size: 1.3rem;
-}
-
-
-  .Products section {
-    flex-wrap: wrap;
-  }
-
-.Product section h2 {
-  color: red;
-}
-
-
-  .Product section {
-    flex-wrap: wrap;
-  }
 
 
 .Total {
@@ -221,24 +179,9 @@
   font-size: 1.3rem;
   letter-spacing:0.2ex;}
 
-  .Product {
-    max-width: 500px;
-
-}
-.Product {
-    text-align: end;
-}
-
-.Product title {
-  float: left;
-}
 
 
-@media (min-width: 620px) {
-  .Products section {
-    flex-wrap: wrap;
-  }
-}
+
 .Products section h2 {
   color: red;
 }
@@ -264,4 +207,33 @@
 .button1:hover {
   background-color: red;
   color: black;
+}
+.product-media {
+  display: flex;
+  justify-content: center; 
+  padding: 2rem ;
+  flex-wrap: wrap;
+  background-color:rgb(228, 227, 227);
+  margin-top: 2rem ; 
+}
+.product-img {
+  width: 250px;
+  height:  250px ;
+}
+.section {
+  padding: 1rem ; 
+  text-align:  center;
+  height :  260px ;
+}
+.title-h2 {
+  margin-top: 0;
+}
+.title-p {
+  font-weight: 400;
+  max-width: 600px;
+color: #000;
+}
+.product-price {
+  color: red;
+  font-size: 1.3rem;
 }
