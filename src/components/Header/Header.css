@@ -237,3 +237,8 @@ color: #000;
   color: red;
   font-size: 1.3rem;
 }
+.error{
+  color: red;
+  text-align: center;
+  font-size: 1.7rem;
+}

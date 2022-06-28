@@ -24,12 +24,11 @@ export default function Auth() {
 
   let errorOutput = null;
   if (error) {
-    errorOutput = <strong style={{ color: "red" }}>{error}</strong>
+    errorOutput = <strong className="error">!!!{error}!!!</strong>
   }
 
   return (
     <form onSubmit={onAuthStart}>
-            {errorOutput}
       <label className="label">
         Email:
         <input className="label1" type="email" name="email" />
@@ -41,7 +40,10 @@ export default function Auth() {
 
       <button className="button1">Sign in</button>
       <button className="button1" >Sign up</button>
+      {errorOutput}
+
     </form>
+
   );
 }
 
