@@ -2,7 +2,7 @@ import Header from "../components/Header/Header";
 import headerImage from "../assets/wallovens2.webp";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
-import Nike from "../components/Nike";
+import Nike from "../components/Nike/Nike";
 
 import "./Home.css";
 

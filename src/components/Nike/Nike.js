@@ -1,4 +1,4 @@
-import nikeImage from "../assets/nike.jpeg";
+import nikeImage from "../../assets/nike.jpeg";
 import "./Nike.css";
 
 function Nike() {
