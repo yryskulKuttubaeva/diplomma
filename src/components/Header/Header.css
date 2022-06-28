@@ -196,17 +196,17 @@
 }
 
 .button1 {
-  background-color: black;
+  background-color: white;
   padding: .4rem 1.8rem;
   margin: .7rem;
   border-radius: 12px;
-  color: #fff;
+  color: #000;
 
 }
 
 .button1:hover {
-  background-color: red;
-  color: black;
+  background-color: black;
+  color: white;
 }
 .product-media {
   display: flex;
