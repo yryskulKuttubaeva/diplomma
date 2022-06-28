@@ -40,6 +40,7 @@ export default function Auth() {
 
       <button className="button1">Sign in</button>
       <button className="button1" >Sign up</button>
+      <hr/>
       {errorOutput}
 
     </form>
