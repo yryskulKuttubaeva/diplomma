@@ -251,3 +251,17 @@
   color: red;
   border: 4px double black;
 }
+
+.button1 {
+  background-color: black;
+  padding: .4rem 1.8rem;
+  margin: .7rem;
+  border-radius: 12px;
+  color: #fff;
+
+}
+
+.button1:hover {
+  background-color: red;
+  color: black;
+}

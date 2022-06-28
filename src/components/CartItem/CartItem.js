@@ -10,13 +10,15 @@ export default function CartItem({ product, actions, quantity }) {
     <div className={classes.CartItem}>
       <div className={classes.image}>
         <img  src={product.image} alt={product.title} />
+        <hr/>
       </div>
       <div className={classes.title}>
         <Link to="">{product.title}</Link>
+        <br/>
       </div>
       <div className={classes.quantity}>
 
-     
+
         {actions ? <button className="btn1" onClick={() => dispatch(decrement(product.productId))}>-</button> : null}
        <br/>
         {quantity}

@@ -28,8 +28,8 @@ export default function Auth() {
         <input className="label1" type="password" name="password" />
       </label>
 
-      <button >Sign in</button>
-      <button >Sign up</button>
+      <button className="button1">Sign in</button>
+      <button className="button1" >Sign up</button>
     </form>
   );
 }
