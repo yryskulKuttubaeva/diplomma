@@ -92,7 +92,7 @@ const products = [
     productId: "Black-white air max",
 
     categoryId: "Max",
-    title: "Nike black-white air max",
+    title: "Nike air max RU",
     description: ` Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis animi dolor libero praesentium qui perspiciatis similique ipsum consequuntur corporis, quisquam, eum commodi, sunt aliquam veritatis quibusdam a deserunt eaque id.
     `,
     price: 2560,

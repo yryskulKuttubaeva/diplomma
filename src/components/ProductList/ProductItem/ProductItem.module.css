@@ -1,6 +1,6 @@
 .ProductItem {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.63);
-  /* border-radius: 2rem; */
+  border-radius: 1rem;
   /* transition-duration: 1ms; */
  margin-top: 3rem;
   width: 290px;
@@ -23,7 +23,8 @@
     width: 100%;
     height: 300px;
     display: block;
-    /* border-radius: 2rem; */
+    border-radius: 2rem;
+    /* background-color: #000; */
     /* transition: transfrom 1s; */
 
 
@@ -38,22 +39,39 @@
 }
 .ProductItem a {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;  
   top: 4rem;
-  color: red;
   vertical-align: 3px;  
   margin-bottom: 8px;
 }
-.price{
+ .price {
+  position: absolute;
+  /* z-index: 3; */
+  /* right: 230px; */
+
+  background-color: black;
+  color: rgb(245, 243, 243);
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  margin: -360px 20px 1rem 151px;
+ }
+/* .price{
   padding: 5px;
   margin: 3px;
   font-size: 1.2rem;
-  background-color: rgb(253, 251, 251);
+  background-color: black;
   text-align: center;
-}
+  color: white;
+  margin-bottom: 4px;
+  border-radius: 10px;
+} */
 
 /* .ProductItem .price {
   position: absolute;

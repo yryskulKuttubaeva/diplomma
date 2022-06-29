@@ -30,12 +30,11 @@ export default function Auth() {
   return (
     <form onSubmit={onAuthStart}>
       <label className="label">
-        Email:
-        <input className="label1" type="email" name="email" />
+        
+        <input  className="label1" type="email" name="email" placeholder="email" />
       </label>
       <label className="label">
-        Password:
-        <input className="label1" type="password" name="password" />
+        <input className="label1" type="password" name="password" placeholder="password" />
       </label>
 
       <button className="button1">Sign in</button>
