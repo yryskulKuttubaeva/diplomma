@@ -28,7 +28,7 @@ export default function Auth() {
   }
 
   return (
-    <form onSubmit={onAuthStart}>
+    <form className="Auth" onSubmit={onAuthStart}>
       <label className="label">
         
         <input  className="label1" type="email" name="email" placeholder="email" />
