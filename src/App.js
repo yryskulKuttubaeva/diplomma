@@ -11,6 +11,8 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import SignOut from "./pages/SignOut";
 import Auth from "./pages/Auth";
+import History from "./pages/History";
+
 
 function App() {
 
@@ -33,6 +35,7 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
           
+          <Route path="/history" element={<History/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

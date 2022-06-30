@@ -1,23 +1,14 @@
 .Header {
   position: relative;
-  margin-bottom: 5rem;
-  box-shadow: none;
 }
 
-
-@media (min-width: 620px) {
-  .Header {
-    flex-wrap: wrap;
-  }
-}
 .Header img {
   position: relative;
   width: 100%;
   height: 75vh;
-  min-height: 380px;
-  margin: 2rem 0;
+  min-height: 480px;
   border-radius: 0rem;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header section {
   position	: absolute;
@@ -29,24 +20,9 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgba(56, 54, 54, 0.603);
   color: white;
-  flex-wrap: wrap;
+
+
 }
-
-
-
-  
-  /* position: absolute;
-  bottom: -3rem;
-  right: 2rem;
-  max-width: 500px;
-  margin-left: 2rem;
-  background-color: rgb(127, 197, 238);
-  padding: 0 2rem 0;
-  border-radius: 2rem;
-  font-size: 1.2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
-
-
 .Header h1 {
   font-size: 2rem;
 }
@@ -244,6 +220,6 @@ color: #000;
   font-size: 1.7rem;
 }
 .Auth {
-  background-color: #000;
+  background-color: rgb(218, 216, 216);
   padding: 2rem;
 }
